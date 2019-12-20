@@ -1,4 +1,4 @@
   
 FROM richarvey/nginx-php-fpm
-COPY . /usr/share/nginx/html
+COPY . /var/www/html
 #copys files from the current directory
